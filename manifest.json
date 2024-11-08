@@ -1,7 +1,7 @@
 {
     "name": "Web-Tool Supporting Customer",
     "short_name": "WebTool",
-    "start_url": "/",
+    "start_url": "https://locnguyenfastboy.github.io/SSWS/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
