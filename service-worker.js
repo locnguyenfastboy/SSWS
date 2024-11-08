@@ -8,6 +8,7 @@ self.addEventListener('install', (event) => {
                 '/app.js',
                 '/style-darkmode.css',
                 '/toggle-switches.css',
+                '/manifest.json',            
             ]);
         })
     );
