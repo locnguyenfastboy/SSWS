@@ -168,7 +168,7 @@ background: linear-gradient(225deg,#ff3cac 0%,#784ba0 50%,#2b86c5 100%);
     background: transparent;
   }
 
-  @media (max-width:1000px) {
+  @media (max-width: 850px) {
     .portrait {display: flex;}
   
     .Navigation_bar {
@@ -180,7 +180,7 @@ background: linear-gradient(225deg,#ff3cac 0%,#784ba0 50%,#2b86c5 100%);
     }
   }
   
-  @media (min-width:1000px) {
+  @media (min-width: 850px) {
     .landscape {display: flex;}
 
     .Navigation_bar {
