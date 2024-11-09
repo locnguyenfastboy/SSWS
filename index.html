@@ -71,5 +71,54 @@
     </div>
   </div>
 <script src="app.js"></script>
+<script>
+// Function to hide all frameViews
+function hideAllFrameViews() {
+  const allFrameViews = document.querySelectorAll('.Frame_view');
+  allFrameViews.forEach(frame => {
+    frame.style.display = 'none';
+  });
+}
+
+// Function to show a specific frameView
+function showFrameView(frameView) {
+  hideAllFrameViews(); // Hide all frameViews first
+  frameView.style.display = 'flex'; // Show the clicked frameView
+}
+
+// For the More_documents and Frame1
+const clickableArea1 = document.querySelector('.More_documents');
+const frameView1 = document.querySelector('.Frame1');
+clickableArea1.addEventListener('click', function() {
+  showFrameView(frameView1); // Show Frame1
+});
+
+// For the Annoucements and Frame2
+const clickableArea2 = document.querySelector('.Annoucements');
+const frameView2 = document.querySelector('.Frame2');
+clickableArea2.addEventListener('click', function() {
+  showFrameView(frameView2); // Show Frame2
+});
+
+// For the Calendar and Frame3
+const clickableArea3 = document.querySelector('.Calendar');
+const frameView3 = document.querySelector('.Frame3');
+clickableArea3.addEventListener('click', function() {
+  showFrameView(frameView3); // Show Frame3
+});
+
+// For the Coming_Soon and Frame4
+const clickableArea4 = document.querySelector('.Coming_Soon');
+const frameView4 = document.querySelector('.Frame4');
+clickableArea4.addEventListener('click', function() {
+  showFrameView(frameView4); // Show Frame4
+});
+
+// For the home (close frameView) functionality
+const homeButton = document.querySelector('.home');
+homeButton.addEventListener('click', function() {
+  hideAllFrameViews(); // Hide all frameViews when home is clicked
+});
+</script>
 </body>
 </html>
