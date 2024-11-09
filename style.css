@@ -119,24 +119,43 @@ body {
     box-sizing: border-box;
   }
 
-  .Calendar:hover .Frame3 {
-    display: flex;
-    background: linear-gradient(225deg,#ff3cac 0%,#784ba0 50%,#2b86c5 100%);
-  }
-
-  .More_documents:hover .Frame1 {
+  /* .More_documents:hover .Frame1 {
     display: flex;
     background: linear-gradient(225deg,#E90000 0%,#f1517c 50%,#FAA6FF 100%);
-}
+  } */
 
-  .Annoucements:hover .Frame2 {
+  /* .Annoucements:hover .Frame2 {
     display: flex;
     background: linear-gradient(225deg,#18A5A7 0%,#BFFFC7 100%);
 }
 
+.Calendar:hover .Frame3 {
+  display: flex;
+  background: linear-gradient(225deg,#ff3cac 0%,#784ba0 50%,#2b86c5 100%);
+}
   .Coming_Soon:hover .Frame4 {
     display: flex;
     background: linear-gradient(225deg,#FFE998 0%,#a88d50 50%,#57370D 100%);
+} */
+
+.Frame1 {
+  display: none;
+  background: linear-gradient(225deg,#E90000 0%,#f1517c 50%,#FAA6FF 100%);
+}
+
+.Frame2 {
+  display: none;
+  background: linear-gradient(225deg,#18A5A7 0%,#BFFFC7 100%);
+}
+
+.Frame3 {
+display: none;
+background: linear-gradient(225deg,#ff3cac 0%,#784ba0 50%,#2b86c5 100%);
+}
+
+.Frame4 {
+  display: none;
+  background: linear-gradient(225deg,#FFE998 0%,#a88d50 50%,#57370D 100%);
 }
 
   iframe {
